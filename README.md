@@ -19,7 +19,7 @@ RFCs have four stages:
 
 You should create an RFC if you wanna make a substantial change to the Boa ecosystem. This is not set in stone, and evolves with community norms. Substantial changes include, but is not limited to:
 
-- Semantic or syntatic change to the language that is not a bugfix.
+- Semantic or syntactic change to the language that is not a bugfix.
 - Removing a feature.
 - Adding a new module to the standard library.
 - Substantially modifying an existing module in the standard library.
