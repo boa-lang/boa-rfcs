@@ -2,7 +2,7 @@
 
 ## What is an RFC?
 
-A **R**equest **F**or **C**omments (RFC) is a proposal to change some aspect of Boa, for example by adding or removing a feature. It allows the team and the community to discuss the proposal and modify it before being accepted
+A **R**equest **F**or **C**omments (RFC) is a proposal to change some aspect of Boa, for example by adding or removing a feature. It allows the team and the community to discuss the proposal and modify it before being accepted.
 
 Things like bug fixes and documentation improvements can be handled through regular GitHub pull requests, and do not need an RFC.
 
@@ -19,19 +19,19 @@ RFCs have four stages:
 
 You should create an RFC if you want to make a substantial change to the Boa ecosystem. Substantial changes include, but is not limited to:
 
-- Semantic or syntactic change to the language that is not a bugfix.
-- Removing a feature.
-- Adding a new module to the standard library.
-- Substantially modifying an existing module in the standard library.
+- Semantic or syntactic change to the language that is not a bugfix
+- Removing a feature
+- Adding a new module to the standard library
+- Substantially modifying an existing module in the standard library
 
 Some changes do not require an RFC:
 
 - Modifications that do not impact behavior (refactoring, reorganizing, etc.)
 - Additions that improve strictly objective, numeric criteria, such as:
-	- Getting rid of warnings during compilation.
-	- Speed improvements.
-	- Better platform support.
-- Additions that are invisible to end users of Boa.
+	- Getting rid of warnings during compilation
+	- Speed improvements
+	- Better platform support
+- Additions that are invisible to end users of Boa
 - Bug fixes
 
 These are not set in stone, and evolve with community norms.
