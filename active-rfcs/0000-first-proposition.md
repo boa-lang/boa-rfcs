@@ -56,7 +56,7 @@ lambda arguments : expression
 As discussed in discord, something more like js is not only more elegant, but also way more readable.
 
 ```py
-#All options
+# All options
 
 (arguments) => expression
 argument => expression
