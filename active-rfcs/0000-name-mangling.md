@@ -1,7 +1,7 @@
 # Name
 
 - Start Date: 2021-12-05
-- RFC PR: [#0](https://github.com/boa-lang/rfcs/pull/0) (Update with link to PR after creating it)
+- RFC PR: [#2](https://github.com/boa-lang/rfcs/pull/2)
 - Implementation PR: (leave this empty)
 <!-- When when linking to the implementation PR, it should be done in the format of boa-lang/<repo>#<PR number> -->
 
