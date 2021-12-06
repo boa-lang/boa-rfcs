@@ -19,7 +19,7 @@ Most languages "mangle" names of symbols, in order to allow for things like name
 ## Detailed design
 
 For purposes of this RFC, "string" refers to a number n followed by n characters.
-Additionally, "constant string" is a literal string of characters
+Additionally, "constant string" is a literal string of characters.
 
 ### Function name mangling
 A function name will be mangled according to the following scheme
