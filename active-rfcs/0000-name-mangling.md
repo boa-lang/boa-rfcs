@@ -11,7 +11,7 @@ Defines how name mangling will work.
 
 ## Basic example
 
-A method of the class `foo` with the signature `method(data: int) -> string` in the module `bar.baz` would be mangled to `boad2m3barm3bazc3fooi6methodp2t3i32t3i32r5string`
+A method of the class `foo` with the signature `method(data: int) -> string` in the module `bar.baz` would be mangled to `boad2m3barm3bazc3fooi6methodp1t3i32r5string`
 ## Motivation
 
 Most languages "mangle" names of symbols, in order to allow for things like namespacing, overloading, and class/struct methods. This RFC defines how Boa can mangle names
