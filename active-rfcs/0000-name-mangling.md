@@ -23,25 +23,25 @@ Additionally, "constant string" is a literal string of characters.
 
 ### Function name mangling
 A function name will be mangled according to the following scheme
-- Leader: always the constant string `boa`
-- Module: a mangled module name
-- Class (optional): the constant string `c` followed by a string representing the class name
-- Method type (Required if class exists): `i` (for instance methods) or `s` (for static methods)
-- Function name: a string representing the name of the function in Boa code
-- Parameters: the constant string `p` followed by Parameter Descriptors
-  - Parameter Descriptors: the constant string `t` followed by a string representing the type name. If the type is a class, the class name is also mangled
-- Return type: the constant string `r` followed by the type name
+1. Leader: always the constant string `boa`
+2. Module: a mangled module name
+3. Class (optional): the constant string `c` followed by a string representing the class name
+4. Method type (Required if class exists): `i` (for instance methods) or `s` (for static methods)
+5. Function name: a string representing the name of the function in Boa code
+6. Parameters: the constant string `p` followed by a number n, then n Parameter Descriptors
+7. Parameter Descriptors: the constant string `t` followed by a string representing the type name. If the type is a class, the class name is also mangled
+8. Return type: the constant string `r` followed by the type name
 
 ### Class name mangling:
 A class name will be mangled according to the following scheme:
-- Leader: always the constant string `boaclass`
-- Module: a mangled module name
-- Class name: the constant string `n` followed by a string representing the class name
+1. Leader: always the constant string `boaclass`
+2. Module: a mangled module name
+3. Class name: the constant string `n` followed by a string representing the class name
 
 ### Module name mangling:
 A module name is mangled according to the following scheme
-- Depth: the contstant string `d` followed by the modules "depth" (henceforth referred to as d) in the module tree. `std` has a depth of `1` and `std.math` has a depth of `2`
-- Module names: d repetitions of the following: the constant string `m` followed by a string representing the module name
+1. Depth: the contstant string `d` followed by the modules "depth" (henceforth referred to as d) in the module tree. `std` has a depth of `1` and `std.math` has a depth of `2`
+2. Module names: d repetitions of the following: the constant string `m` followed by a string representing the module name
 
 ## Drawbacks
 
